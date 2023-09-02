@@ -21,3 +21,7 @@ convertBtn.addEventListener("click", function(){
     let kilogram = ((inputEl.value / 2.2046).toFixed(3))
     mass.innerText = `${inputEl.value} kilograms = ${pound} pounds | ${inputEl.value} pounds = ${kilogram} kilograms`
 }) 
+
+convertBtn.addEventListener("dblclick", function(){
+    inputEl.value =''
+})
