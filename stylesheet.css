@@ -23,12 +23,13 @@ body{
     color: white;
 }
 
-.box{
+#input-el{
     height: 83px;
     width: 117px;
     border: 2px solid #cd7474;
     border-radius: 5px;
     color: white;
+    background: #cd7474;
     text-align: center;
     font-size: 8ch;
     font-weight: bold;

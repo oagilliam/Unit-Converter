@@ -10,9 +10,17 @@
                 <div class="metImp-header">
                     <h1>Metric/Imperial Unit Conversion</h1>
                 </div>
-                <div class="box">0</div>
-                <button id="convert-btn" onclick="measurement()">Convert</button>
+                <input type="text" id="input-el">
+                <button id="convert-btn">Convert</button>
             </div>
+        </div>
+        <div class="bottomRow">
+            <h2>Length (Meter/Feet)</h2>
+            <p id="lengthOutput"> meters =  feet |    feet =  meters</p>
+            <h2>Volume (Liters/US Gallons)</h2>
+            <p id="volumeOutput"></p>
+            <h2>Mass(Kilograms/Pounds)</h2>
+            <p id="massOutput"></p>
         </div>
         <script src="index.js"></script>
     </body>
