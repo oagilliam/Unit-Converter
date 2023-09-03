@@ -51,3 +51,28 @@ body{
 h1{
     margin: 0px;
 }
+
+.bottomRow{
+    display: flex;
+    justify-content: center;
+}
+
+.bottomColumn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #BA4849;
+}
+
+.length-header, .volume-header, .mass-header{
+    height: 109px;
+    width: 500px;
+    margin-top: 30px;
+    background: #ffffff;
+    text-align: center;
+    padding: 10px 45px 2px; /* top left/right bottom */
+}
+
+p{
+    color: #3d3d3d;   
+}
