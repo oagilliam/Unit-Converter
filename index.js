@@ -14,7 +14,7 @@ convertBtn.addEventListener("click", function(){
     //Calculates the volume
     let gallon = (inputEl.value * 0.2641).toFixed(3)
     let liter = ((inputEl.value / 0.2641).toFixed(3))
-    volume.innerText = `${inputEl.value} liters = ${gallon} US gallons | ${inputEl.value} gallons = ${liter} liters`
+    volume.innerText = `${inputEl.value} liters = ${gallon} US gallons | ${inputEl.value} US gallons = ${liter} liters`
 
     //Calculates the mass
     let pound = (inputEl.value * 2.2046).toFixed(3)
